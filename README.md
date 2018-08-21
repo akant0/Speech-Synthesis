@@ -1,7 +1,7 @@
 "synth.py" is a simple concatenative speech synthesizer. 
 
 Requires a folder "monophones" with wav files for each monophone (not uploaded, as it belongs to the University of Edinburgh)
-Synthesizer normalizes text (dates, numbers, caps, etc.) and emphasizes with {word}.
+Synthesizer normalizes text (dates, numbers, caps, etc.), adds pauses with punctuation and emphasizes with {word}.
 
 example1.wav: -p "HELLO. i was born {22/01} with {3.14} or, 344 cats"
 
